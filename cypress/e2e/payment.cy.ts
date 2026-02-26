@@ -18,6 +18,7 @@ describe("payment", () => {
     cy.log('test cases starrt')
     Payment.sendRequest();
   });
+  //
   
   it("pay", () => {
     Payment.pay();
